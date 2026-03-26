@@ -99,9 +99,15 @@ Custom code used to estimate distance from the camera to the mid-point of the pl
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
 
-  <img src="https://github.com/user-attachments/assets/68dd7548-8548-4ce2-bd28-4c0e4d2c293b" alt="Distance Map" width="400" style="height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/f8bae0c2-cacd-467f-905c-c4a97ebe1e4e" 
+       alt="Raw Image" 
+       width="400" 
+       style="height: auto;"/>
   
-  <img src="https://github.com/user-attachments/assets/f8bae0c2-cacd-467f-905c-c4a97ebe1e4e" alt="Raw Image" width="400" style="height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/68dd7548-8548-4ce2-bd28-4c0e4d2c293b" 
+       alt="Distance Map" 
+       width="400" 
+       style="height: auto;"/>
   
 </div>
 
