@@ -16,6 +16,7 @@ Through this project, I learned how important data preprocessing, model selectio
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Results](#results)
+- [Visual Pipeline](#visual-pipeline)
 - [Credits](#credits)
 - [Future Work](#future-work)
 - [License](#license)
@@ -58,6 +59,27 @@ You can extend this pipeline for:
 
 ---
 
+## Visual Pipeline
+
+This section shows the step-by-step progression of our Flappy Drone AI Vision project, from raw footage to depth-enhanced outputs.
+
+### Step 1: Original Drone Footage
+![Step 1](assets/images/step1-original.png)
+
+### Step 2: Preprocessing
+![Step 2](assets/images/step2-preprocessing.png)
+
+### Step 3: Depth Estimation
+![Step 3](assets/images/step3-depth.png)
+
+### Step 4: Dataset Creation
+![Step 4](assets/images/step4-dataset.png)
+
+### Step 5: Final Result
+![Step 5](assets/images/step5-final.png)
+
+---
+
 ## Credits
 
 This project was developed as part of a team collaboration.
@@ -78,7 +100,6 @@ My contributions included:
 - Combine depth estimation with real-time decision making  
 
 ---
-## Visuals
 
 ## License
 
