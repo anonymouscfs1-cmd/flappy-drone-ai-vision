@@ -78,6 +78,7 @@ My contributions included:
 - Combine depth estimation with real-time decision making  
 
 ---
+## Visuals
 
 ## License
 
