@@ -115,21 +115,27 @@ Custom code used to estimate distance from the camera to the mid-point of the pl
 
 ### Step 4: YouTube Video Test
 Tested temporal mode vs framewise mode on YouTube drone footage. This video was used for experimentation but was not suitable for the final project.
-![YouTube Test](assets/images/step4-youtube-test.png)
+<img width="1173" height="851" alt="image" src="https://github.com/user-attachments/assets/1a0c09be-b3a2-47c5-8d80-9ea37cf2b86a" />
+
 
 ### Step 5: Drone Footage
 Raw footage received from the project owner. This became the primary input for the project.
-![Drone Footage](assets/images/step5-drone-footage.png)
+<img width="1417" height="705" alt="image" src="https://github.com/user-attachments/assets/78d6046a-315a-4730-82e8-e4aa1fb9006c" />
 
 ### Step 6: Drone Depth Visualization
 Applied AnythingDepth to real drone footage. Leaves close to the camera appear yellow, farther ones are purple.
-![Drone Depth](assets/images/step6-drone-depth.png)
+<img width="1491" height="670" alt="image" src="https://github.com/user-attachments/assets/f987e1f2-5e4c-4416-90ac-f95a84c4f8a6" />
 
 ### Step 7: Normal Drone Footage
-Optional code to view the drone footage without depth overlay, showing the original visuals.
-![Normal Drone](assets/images/step7-drone-normal.png)
+Optional code to view the drone footage without the AnythingDepth overlay. This version attempts to focus on the closest leaf using a green bounding box and an estimated distance. 
 
----
+This step was the most challenging due to:
+- Motion blur from the drone and flapping leaves  
+- Leaves not being clearly visible in some frames  
+- High movement and dynamics in the environment  
+
+<img width="934" height="1069" alt="image" src="https://github.com/user-attachments/assets/bab75123-6ffc-4988-8018-eac9bae886af" />
+
 
 ## License
 
