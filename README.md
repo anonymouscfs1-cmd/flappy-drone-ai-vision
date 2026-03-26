@@ -88,9 +88,11 @@ Original raw image captured for depth estimation testing.
 <img src="https://github.com/user-attachments/assets/2ae0a55b-582a-409c-bb2c-2920e361b84c" alt="Raw Image" width="600"/>
 
 
-### Step 2: Depth Estimation
+### Step 2: Depth Estimation Output
 Applied AnythingDepth on the raw image. Purple indicates far objects, yellow indicates objects close to the camera.
-![AnythingDepth Output](assets/images/step2-anythingdepth.png)
+
+<img src="https://github.com/user-attachments/assets/9e29aad0-c788-4dda-abb2-1b6380984144" alt="Depth Estimation" width="600" style="transform: rotate(90deg);"/>
+
 
 ### Step 3: Distance Estimation
 Custom code used to estimate distance from the camera to the mid-point of the plant leaf. This step helped quantify plant proximity.
