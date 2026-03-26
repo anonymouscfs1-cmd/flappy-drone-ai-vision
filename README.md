@@ -71,7 +71,7 @@ Added a visual scope overlay that displays the estimated distance directly insid
 Extended the pipeline from single-image to video processing. Tested both framewise (independent per frame) and temporal (smoothed across frames) modes on a YouTube greenhouse video.
 
 **Step 7 – Real drone footage validation**  
-Switched to Mauro's actual drone footage with fast movement, blur, and shake — much closer to real Flappy conditions. This made instability clearly visible and drove all subsequent improvements.
+Switched to the project owner's actual drone footage with fast movement, blur, and shake — much closer to real Flappy conditions. This made instability clearly visible and drove all subsequent improvements.
 
 **Step 8 – Vegetation locking (HSV)**  
 Added an HSV-based green mask to restrict the scope to plant regions and ignore greenhouse structures, shadows, and background clutter.
@@ -212,9 +212,7 @@ This step was the most challenging due to:
 
 This project was developed as part of a team collaboration on the Flappy Drone project.
 
-The Leaf Tracker used in the distance estimation pipeline was built using trajectory-style tracking logic developed in collaboration with a teammate.
-
-The depth estimation baseline was developed in collaboration with a teammate (Roadmap Variation 1), whose work established the foundational calibration approach that this roadmap extended.
+The Leaf Tracker logic and the depth estimation pipeline in this repository represent my own independent work. A teammate separately developed their own depth estimation baseline (Roadmap Variation 1) as a parallel approach within the same project.
 
 ---
 
