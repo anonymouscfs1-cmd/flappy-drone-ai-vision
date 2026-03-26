@@ -16,9 +16,9 @@ Through this project, I learned how important data preprocessing, model selectio
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Results](#results)
-- [Visual Pipeline](#visual-pipeline)
 - [Credits](#credits)
 - [Future Work](#future-work)
+- [Visuals](#visuals)
 - [License](#license)
 
 ---
@@ -59,27 +59,6 @@ You can extend this pipeline for:
 
 ---
 
-## Visual Pipeline
-
-This section shows the step-by-step progression of our Flappy Drone AI Vision project, from raw footage to depth-enhanced outputs.
-
-### Step 1: Original Drone Footage
-![Step 1](assets/images/step1-original.png)
-
-### Step 2: Preprocessing
-![Step 2](assets/images/step2-preprocessing.png)
-
-### Step 3: Depth Estimation
-![Step 3](assets/images/step3-depth.png)
-
-### Step 4: Dataset Creation
-![Step 4](assets/images/step4-dataset.png)
-
-### Step 5: Final Result
-![Step 5](assets/images/step5-final.png)
-
----
-
 ## Credits
 
 This project was developed as part of a team collaboration.
@@ -98,6 +77,39 @@ My contributions included:
 - Integrate AI for autonomous drone navigation  
 - Improve dataset quality and model accuracy  
 - Combine depth estimation with real-time decision making  
+
+---
+
+## Visuals
+
+### Step 1: Raw Image
+Original raw image captured for depth estimation testing.
+![Raw Image](assets/images/step1-raw.png)<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/2ae0a55b-582a-409c-bb2c-2920e361b84c" />
+
+
+### Step 2: Depth Estimation
+Applied AnythingDepth on the raw image. Purple indicates far objects, yellow indicates objects close to the camera.
+![AnythingDepth Output](assets/images/step2-anythingdepth.png)
+
+### Step 3: Distance Estimation
+Custom code used to estimate distance from the camera to the mid-point of the plant leaf. This step helped quantify plant proximity.
+![Distance Estimation](assets/images/step3-distance-estimation.png)
+
+### Step 4: YouTube Video Test
+Tested temporal mode vs framewise mode on YouTube drone footage. This video was used for experimentation but was not suitable for the final project.
+![YouTube Test](assets/images/step4-youtube-test.png)
+
+### Step 5: Drone Footage
+Raw footage received from the project owner. This became the primary input for the project.
+![Drone Footage](assets/images/step5-drone-footage.png)
+
+### Step 6: Drone Depth Visualization
+Applied AnythingDepth to real drone footage. Leaves close to the camera appear yellow, farther ones are purple.
+![Drone Depth](assets/images/step6-drone-depth.png)
+
+### Step 7: Normal Drone Footage
+Optional code to view the drone footage without depth overlay, showing the original visuals.
+![Normal Drone](assets/images/step7-drone-normal.png)
 
 ---
 
