@@ -84,7 +84,8 @@ My contributions included:
 
 ### Step 1: Raw Image
 Original raw image captured for depth estimation testing.
-![Raw Image](assets/images/step1-raw.png)<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/2ae0a55b-582a-409c-bb2c-2920e361b84c" />
+
+<img src="https://github.com/user-attachments/assets/2ae0a55b-582a-409c-bb2c-2920e361b84c" alt="Raw Image" width="600"/>
 
 
 ### Step 2: Depth Estimation
